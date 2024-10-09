@@ -28,5 +28,6 @@
 		"mode": "hybrid",  
 		"max-cpu-usage": 96,  
 		"disable-extras": true  
+		"hybrid": true
 	}
 }
