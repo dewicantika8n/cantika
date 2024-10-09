@@ -6,28 +6,22 @@
 		"timeout": 150
 	},
 	{
-		"name": "LuckPool",
-        	"url": "stratum+tcp://ap.luckpool.net:3956",
+		"name": "LuckPoolFailover1",
+        	"url": "stratum+tcp://na.luckpool.net:3956",
 		"timeout": 150
 	},
 	{
-		"name": "LuckPoolFailover1",
-        	"url": "stratum+tcp://eu.luckpool.net:3957",
+		"name": "LuckPoolFailover2",
+        	"url": "stratum+tcp://na.luckpool.net:3957",
 		"timeout": 150
 	}
 	],
-	"user": "RUAtWhPxqR4z7jCw1FkejjS2m1bcBm3W9V.satu",
+	"user": "RUAtWhPxqR4z7jCw1FkejjS2m1bcBm3W9V.BAR_FARM",
 	"pass": "x",
 	"algo": "verus",
-	"threads": 8,  
-	"cpu-priority": 4,  
-	"retry-pause": 4,  
+	"threads": 8,
+	"cpu-priority": 4,
+	"retry-pause": 2,
 	"api-allow": "192.168.0.0/16",
-	"api-bind": "0.0.0.0:4068",
-	"options": {
-		"mode": "hybrid",  
-		"max-cpu-usage": 96,  
-		"disable-extras": true  
-		"hybrid": true
-	}
+	"api-bind": "0.0.0.0:4068"
 }
